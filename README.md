@@ -5,3 +5,5 @@ PROYECTO: Administrador de Clientes - React Router DOM, Tailwind y JSON-Server
 - TailwindCSS
 - Hooks de RRD
 - Creacion API Rest falsa (para pruebas) con library json-server
+
+Nota: Para activar API falsa: `json-server --watch .\db.json` desde la raiz

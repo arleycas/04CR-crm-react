@@ -1,18 +1,20 @@
 {
   "clientes": [
     {
-      "id": 1,
-      "nombre": "Juan",
-      "telefono": 102013313,
+      "nombre": "Juan actualiuzado",
+      "empresa": "Hi5",
       "email": "juan@juan.com",
-      "empresa": "Hi5"
+      "telefono": "102013313",
+      "notas": "Notitas update",
+      "id": 1
     },
     {
-      "id": 2,
-      "nombre": "Karen",
-      "telefono": 138198313,
+      "nombre": "Karen xD",
+      "empresa": "elrellano.com",
       "email": "karen@juan.com",
-      "empresa": "elrellano.com"
+      "telefono": "138198313",
+      "notas": "Karen la locota",
+      "id": 2
     },
     {
       "id": 3,

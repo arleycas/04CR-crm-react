@@ -1,4 +1,5 @@
-const Formulario = ({cliente}) => {
+const Formulario = ({objCliente}) => {
+
   return (
       <>
         <div className="mb-4">
@@ -12,8 +13,9 @@ const Formulario = ({cliente}) => {
                 className="mt-2 block w-full p-3 bg-gray-50"
                 placeholder="Nombre del Cliente"
                 name="nombre"
-            />
+								defaultValue={objCliente?.nombre} />
         </div>
+				
         <div className="mb-4">
             <label
                 className="text-gray-800"
@@ -25,7 +27,7 @@ const Formulario = ({cliente}) => {
                 className="mt-2 block w-full p-3 bg-gray-50"
                 placeholder="Empresa del Cliente"
                 name="empresa"
-            />
+								defaultValue={objCliente?.empresa} />
         </div>
 
         <div className="mb-4">
@@ -39,7 +41,7 @@ const Formulario = ({cliente}) => {
                 className="mt-2 block w-full p-3 bg-gray-50"
                 placeholder="Email del Cliente"
                 name="email"
-            />
+								defaultValue={objCliente?.email} />
         </div>
 
         <div className="mb-4">
@@ -53,7 +55,7 @@ const Formulario = ({cliente}) => {
                 className="mt-2 block w-full p-3 bg-gray-50"
                 placeholder="Teléfono del Cliente"
                 name="telefono"
-            />
+								defaultValue={objCliente?.telefono} />
         </div>
 
         <div className="mb-4">
@@ -68,7 +70,7 @@ const Formulario = ({cliente}) => {
                 className="mt-2 block w-full p-3 bg-gray-50 h-40 align-self"
                 placeholder="Notas del Cliente"
                 name="notas"
-            />
+								defaultValue={objCliente?.notas} />
         </div>
       </>
   )
